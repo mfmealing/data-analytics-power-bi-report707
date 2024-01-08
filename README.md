@@ -40,3 +40,16 @@ Created a new column Country to store the full name of each stores Country, Unit
 that combines this and the Region column together with a column separating them.      
 Created a final hierarchy for geography in the following order: World Region, Country, Country Region. The World Region column is the continent.
 
+## Milestone 4
+Set up report pages: Executive Summary, Customer Detail, Product Detail, Stores Map. Also set colour theme for report.    
+Added a side panel to eventually create a navigation pane from.
+
+## Milestone 5
+Built the Customer Detail report page.      
+Added cards detailing the total number of unique customers, the revenue per customer (total revenue divided by total unique customers) and the full name, number of orders and 
+revenue of the customer with the highest revenue.     
+Added a pie chart to show the distribution of customers by country and a bar chart showing the distribution of customers by product category.    
+Created a table showing the 20 customers with the highest revenue, sorted by revenue with their full names, reveneu and number of orders. Also added data bars to the revenue
+and order columns for clarity.    
+Added a line chart showing the total customers by year, quarter or month depending on the level drilled down - this was left at quarter for best visuals. A trend line was 
+added with a forcast for the next 10 periods with a confidense of 95%.
