@@ -52,7 +52,7 @@ Added a pie chart to show the distribution of customers by country and a bar cha
 Created a table showing the 20 customers with the highest revenue, sorted by revenue with their full names, reveneu and number of orders. Also added data bars to the revenue
 and order columns for clarity.    
 Added a line chart showing the total customers by year, quarter or month depending on the level drilled down - this was left at quarter for best visuals. A trend line was 
-added with a forcast for the next 10 periods with a confidence of 95%.    
+added and a forcast for the next 10 periods with a confidence of 95%.    
 The final page result is shown below:    
 ![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/fefea1d2-c5e6-45ce-9ba2-dd7c6cae3d2a)
 
