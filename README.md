@@ -54,5 +54,20 @@ and order columns for clarity.
 Added a line chart showing the total customers by year, quarter or month depending on the level drilled down - this was left at quarter for best visuals. A trend line was 
 added and a forcast for the next 10 periods with a confidence of 95%.    
 The final page result is shown below:    
-![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/fefea1d2-c5e6-45ce-9ba2-dd7c6cae3d2a)
+![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/6bc58e28-e70f-4a7e-a37e-0d0f343ba825)
+
+## Milestone 6
+Built the Executive Summary page.    
+Added cards for the total revenue, profit and orders. Also added donut charts for the revenue by store type and store country.     
+Created a line chart for the total revenue using the same date heirarchy as before, including a trend line and a forcast for the next 10 periods with a confidence of 95%, as 
+before. The graph was left at months for best visuals.    
+Added a bar chart for the distribution of orders by product category and a table showing the top 10 products by total orders, including the product name, category, total 
+revenue, total customers and total orders. This was then sorted alphabetically and data bars were added to the revenue column.    
+Created KPI visuals - this involved making new measures for the total revenue. profit and orders for the past quarter, using the PREVIOUSQUARTER fucntion. The targets of 
+these three measures were then also calculated by multiplying the previous quarter's values by 1.05. The KPI was then set up with the values as the total (revenue, profit or 
+orders), the trend axis as the starts of the quarter and the target as the mewly calculated targets. This was then formatted so that high was good and the colour green and 
+low was bad and the colour red.    
+All values were changed so that the correct decimal places were shown.    
+The final page result is shown below:    
+![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/108ef112-cb53-4fc3-afed-4015a8af3ac2)
 
