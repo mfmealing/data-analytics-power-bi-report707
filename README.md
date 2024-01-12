@@ -71,3 +71,22 @@ All values were changed so that the correct decimal places were shown.
 The final page result is shown below:    
 ![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/108ef112-cb53-4fc3-afed-4015a8af3ac2)
 
+## Milestone 7
+Built the Product Detail page.    
+Added gauge visuals for the order, revenue and profit to show the current quarter performance against a goals of 10% increase. This involved making measures for the current
+quarter of the three values and the target which was the current quarter multiplied by 1.1. Conditional formatting was also applied so that the value in the centre was red 
+if the target wasn't met and black if it was met.    
+Added tiles that showed the product with the most orders and highest revenue.   
+Created an area chart for the different product categories against revenue.    
+Created a top 10 products table, for the products that had the highest revenue. Data bars were applied to the revenue and the data was sorted by revenue. The table included
+product description, revenue, total customers, total orders and profit per order (total profit / total orders).    
+Created a scatter graph for the profitability of each product category. A measure of profit per item (sum of profits for each product in the products table) was created and 
+set as the x-axis - this was then put against the sum of the product quantity with the desciption as the values and the category as the legend.    
+A slicer toolbar was started to be built. A filter icon was added to the rectangle created earlier taken from a zip file provided a secondary panel was then added to include
+the filters for product category and store location by country. The countries option was given a select all option and both were set as vertical slicers with no links to data.
+They were both then grouped to this newly made panel and a back button symbol was added and also grouped. Two bookmarks were then added, one where the new panel was showing 
+and one without - the back button was assigned to the one without and the filter button was assigned to the one with so the panel could be easily shown and hidden.    
+The final page result is shown below:    
+![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/a995e8d9-dbcb-47dc-88ba-e3a98f16ae18)
+The same page with the filter slicer toolbar:    
+![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/480d1a50-3248-46c4-a8ba-1931130ee99a)
