@@ -11,7 +11,7 @@ region, provide a detailed analysis of top-performing products categorised by ty
 performance metrics of their retail outlets across different territories.
 
 ## Milestone 1
-Set up Github file
+Set up Github file.
 
 ## Milestone 2
 Compiled multiple data sets in various formats into one Power BI document.     
@@ -90,3 +90,23 @@ The final page result is shown below:
 ![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/a995e8d9-dbcb-47dc-88ba-e3a98f16ae18)
 The same page with the filter slicer toolbar:    
 ![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/480d1a50-3248-46c4-a8ba-1931130ee99a)
+
+## Milestone 8
+Built the Stores Map page.
+Added a map visual to show each of the stores locations, using the geography heirarchy previously created and year to date profit as the bubble size.    
+Created a tile style slicer at the top of the page to filter by country, also including a select all option.    
+Built a drillthrough page which could be viewed when cilcking through a particluar section on the map. This included a table with the top 5 products by year to date profit, 
+including the columns of desciption, year to date profit, total orders and total revenue, sorted alphebetcially. There was also a column chart for the total orders by category,
+a card visual showing the selected store and two gague visuals, one for the year to date profit and one for the year to date revenue, both showing targets of a 20% increase 
+from the current value, created by multiplying the YTD value by 1.2. The page was then edited to be a drillthrough page instead of a standard page and was set to be used as a 
+category for country region on the map made before.    
+Built a stores tooltip page which could be viewed when hovering over any bubble on the map made previously. This was done by creating a new page and setting it to a tooltip 
+page instead of standard. The previously made gauge visuals were moved over and added to the page as well as a card for the store location for clarity.    
+The final page result is shown below:    
+![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/7312a8b9-0eda-4924-abfc-bdafab2c1e18)
+The drillthrough page (shown just for first possible location alphabetically):    
+![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/e46bd96d-8c8b-4f61-8c3e-b9a9760c372c)
+The Tooltip page:    
+![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/723e1fc9-242b-41ac-9c34-162d338077e4)
+
+
