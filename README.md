@@ -63,7 +63,7 @@ Created a line chart for the total revenue using the same date heirarchy as befo
 before. The graph was left at months for best visuals.    
 Added a bar chart for the distribution of orders by product category and a table showing the top 10 products by total orders, including the product name, category, total 
 revenue, total customers and total orders. This was then sorted alphabetically and data bars were added to the revenue column.    
-Created KPI visuals - this involved making new measures for the total revenue. profit and orders for the past quarter, using the PREVIOUSQUARTER fucntion. The targets of 
+Created KPI visuals - this involved making new measures for the total revenue. profit and orders for the past quarter, using the PREVIOUSQUARTER function. The targets of 
 these three measures were then also calculated by multiplying the previous quarter's values by 1.05. The KPI was then set up with the values as the total (revenue, profit or 
 orders), the trend axis as the starts of the quarter and the target as the mewly calculated targets. This was then formatted so that high was good and the colour green and 
 low was bad and the colour red.    
@@ -109,4 +109,12 @@ The drillthrough page (shown just for first possible location alphabetically):
 The Tooltip page:    
 ![image](https://github.com/mfmealing/data-analytics-power-bi-report707/assets/148961337/723e1fc9-242b-41ac-9c34-162d338077e4)
 
-
+## Milestone 9
+Edited the cross-filtering across the report pages. For the Executive Summary page, the product category bar chart and top 10 products table were changed so that they didn't 
+filter the card visuals or KPIs. The Customer Detail page was changed so that the top 20 customers table didn't filter any other visuals, the total customers by product category 
+bar chart didn't affect the customers line graph and the total customers by country donut chart cross-filtered the bar chart. The Product Detail page ws changed so that the 
+orders vs. profitability scatter graph and the top 10 products table didn't affect any other visuals.     
+Finished setting up the sidebar buttons by creating four blank buttons and adding the images provided for the four pages of the report. These were also changed so then when 
+hovering over the buttons, they would chnage colour by swapping out for the same iages but in a different colour. The action of each of the buttons was then changed to direct to 
+each of the four pages, with the current page left blank. The buttons were then copied over to each of the other pages, changed which buttons were left blank for whatever the 
+current page was.    
