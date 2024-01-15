@@ -95,7 +95,7 @@ The same page with the filter slicer toolbar:
 Built the Stores Map page.
 Added a map visual to show each of the stores locations, using the geography heirarchy previously created and year to date profit as the bubble size.    
 Created a tile style slicer at the top of the page to filter by country, also including a select all option.    
-Built a drillthrough page which could be viewed when cilcking through a particluar section on the map. This included a table with the top 5 products by year to date profit, 
+Built a drillthrough page which could be viewed when right clicking cilcking on a particular bubble on the map. This included a table with the top 5 products by year to date profit, 
 including the columns of desciption, year to date profit, total orders and total revenue, sorted alphebetcially. There was also a column chart for the total orders by category,
 a card visual showing the selected store and two gague visuals, one for the year to date profit and one for the year to date revenue, both showing targets of a 20% increase 
 from the current value, created by multiplying the YTD value by 1.2. The page was then edited to be a drillthrough page instead of a standard page and was set to be used as a 
@@ -118,3 +118,15 @@ Finished setting up the sidebar buttons by creating four blank buttons and addin
 hovering over the buttons, they would chnage colour by swapping out for the same iages but in a different colour. The action of each of the buttons was then changed to direct to 
 each of the four pages, with the current page left blank. The buttons were then copied over to each of the other pages, changed which buttons were left blank for whatever the 
 current page was.    
+
+## Milestone 10
+Connected to an SQL server to query data. Created a list of table names and a list of column names for each of those tables using SQL queries, all then exported as .csv files and 
+can be found in the Table_Columns folder.    
+Queried the database for 5 separate questions:
+- How many staff are there in all of the UK stores?
+- Which month in 2022 has had the highest revenue?
+- Which German store type had the highest revenue for 2022?
+- Create a view where the rows are the store types and the columns are the total sales, percentage of total sales and the count of orders
+- Which product category generated the most profit for the "Wiltshire, UK" region in 2021?
+These were answered as the data exported as a .csv file, with the SQL query itself saved as a .sql file. Each of the questions are labelled as question_(number) for each of the
+files. These can be found in the Milestone_10 folder.
